@@ -46,8 +46,7 @@ nav a:hover {
     display: block;
 }
 .space {
-
-    position: fixed;
+    position: absolute;
     right: 0%;
     top: 30%;
     bottom: 0%;
@@ -178,6 +177,24 @@ footer {
 @media screen and (max-width: 1091px) {
     .space {
         width: 0%;
+    }
+    nav {
+        padding-right: 10%;
+    }
+}
+
+@media screen and (max-width: 901px) {
+    footer {
+        position: fixed;
+    }
+}
+@media screen and (max-width: 610px) {
+    nav {
+        padding-right: 10%;
+    }
+    .container h2 {
+        padding-left: 10px;
+        font-size: 80px;
     }
 }
 
